@@ -12,3 +12,8 @@ resource "azurerm_resource_group" "hs" {
   name     = "himanshu"
   location = "west us"
 }
+
+resource "azurerm_resource_group" "hs3" {
+  name     = "himanshu3"
+  location = "west us"
+}
