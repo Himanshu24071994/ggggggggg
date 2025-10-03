@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "rgs" {
   name     = var.rg_names[count.index]
   location = "west us"
 }
+
+resource "azurerm_resource_group" "hs" {
+  name     = "himanshu"
+  location = "west us"
+}
